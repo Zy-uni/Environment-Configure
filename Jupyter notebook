@@ -1,0 +1,6 @@
+Jupyter notebook temple setting
+
+Gudie link: https://zhuanlan.zhihu.com/p/54397619
+
+1. pip install jupyterthemes
+2. jt -t monokai -f consolamono -fs 140 -tfs 13 -nfs 115 -ofs 14 -cellw 80% -T
