@@ -4,3 +4,7 @@ Gudie link: https://zhuanlan.zhihu.com/p/54397619
 
 1. pip install jupyterthemes
 2. jt -t monokai -f consolamono -fs 140 -tfs 13 -nfs 115 -ofs 14 -cellw 80% -T
+
+
+3. Windows C++ 14.0 environment error 
+  link: https://somjang.tistory.com/entry/Python-pip-install-%EC%8B%9C-error-Microsoft-Visual-C-140-is-required-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95
