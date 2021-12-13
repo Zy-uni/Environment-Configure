@@ -1,0 +1,55 @@
+PyCharm Install and Configure
+
+Guide: https://www.jetbrains.com/help/pycharm/quick-start-guide.html
+
+1. Download: PyCharm  
+	link: https://www.jetbrains.com/pycharm/  
+	Username: 
+	PassWord: 
+
+2. Install PyCharm:
+	path: C:\Program Files\JetBrains\PyCharm 2021.3
+
+3. Download and Install Python
+	link: https://www.python.org/downloads/
+	Version: 3.10.1
+
+
+	python 3.8.2 
+	install path: C:\User\ZY_by\AppData\Local\Pragrams\Python\Python38
+
+3. Download CUDA Toolkit   cuDNN
+	GPU : RTX 2070
+	CUDA: 11.5  path: C:\Users\ZY_by\AppData\Local\Temp\CUDA    nvcc --version  check install
+	cuDNN: 11.5CUDA     Find cuDNN\bin to input system environment path
+	
+
+
+4. Creat a new project:
+	Coding location: C:\Zhouyu\Pycharm_Coding
+	Environment location: C:\Zhouyu\Pycharm_Coding\venv
+
+5. Python Interpreter
+	clt + alt + s ==> Setting
+	Project: ******   
+	can pip isntlal package 
+
+6. pip install package
+	View --> Tool Windows --> Python Packages
+
+
+
+7. Install Jupyter notebook 
+	PC had the python 3.8'
+	python -m pip  install --upgrade pip
+	pip isntall jupyter
+
+	modify the jupyter notebook open root:
+		jupyter notebook --generate-config 
+		c.NotebookApp.notebook_dir = ' '  ==> c.NotebookApp.notebook_dir = 'C:\\Python_project'
+
+	jupyter notebook    
+	Done
+
+
+
