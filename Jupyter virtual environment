@@ -1,0 +1,11 @@
+Jupyter virtual environment on Windows (No anconda)
+1. python -m venv [venv-name]
+2. cd [venv-name]/Scripts
+3. activate
+4. pip install ......
+5. deactivate
+
+
+Add virtual environment name in jupyter notebook:
+1. pip install ipykernel
+2. python -m ipykernel install --user --name [virtualEnv] --display-name "[displayKenrelName]"
