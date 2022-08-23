@@ -1,0 +1,3 @@
+Download file from Sever to  Windows laptop
+  Command: scp -r root@ ip :/file C:\file
+ 
